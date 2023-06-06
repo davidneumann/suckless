@@ -74,7 +74,7 @@ static const char *screenrecord[] = { "/usr/local/bin/record", NULL };
 static const char *termcmd[]  = { "wezterm", NULL };
 static const char *upvol[]   = { "/bin/pulseaudio-ctl", "up", "5",      NULL };
 static const char *downvol[]   = { "/bin/pulseaudio-ctl", "down", "5",      NULL };
-static const char *lock[]   = { "/usr/loca/bin/pslock",      NULL };
+static const char *lock[]   = { "/usr/local/bin/pslock",      NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
