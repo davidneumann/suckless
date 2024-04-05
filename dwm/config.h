@@ -80,8 +80,8 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY|ShiftMask,             XK_s,      spawn,          {.v = screenshot } },
 	{ MODKEY|ShiftMask,             XK_r,      spawn,          {.v = screenrecord } },
-	{ MODKEY|ShiftMask,             XK_space,  spawn,          {.v = dmenucmd } },
-	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = dmenucmd } },
+	{ MODKEY|ShiftMask,             XK_t,      spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
@@ -90,7 +90,7 @@ static const Key keys[] = {
 	/* { MODKEY,                       XK_h,      setmfact,       {.f = -0.05} }, */
 	/* { MODKEY,                       XK_l,      setmfact,       {.f = +0.05} }, */
 	{ MODKEY|ShiftMask,             XK_l,      spawn,          {.v = lock } },
-	{ MODKEY,                       XK_space,  zoom,            {0} },
+	{ MODKEY,                       XK_z,      zoom,            {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[3]} },
